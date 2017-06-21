@@ -188,6 +188,17 @@ h2{
     margin: 1em;
 }
 
+.trafic1mobile{
+    display: flex;
+    padding-left: 25%;
+
+}
+
+.trafic1{
+    display: none;
+}
+
+
 h4{
     text-align: center;
     margin: 2em;
@@ -236,8 +247,17 @@ h2{
     margin: 1em;
 }
 
-.trafic, .trafic1, .trafic2{
+/*.trafic, .trafic1, .trafic2{
     padding-left: 39%;
+}*/
+
+.trafic1{
+    display: flex;
+}
+
+.trafic1mobile{
+    display: none;
+    
 }
 
 h4{
@@ -245,6 +265,11 @@ h4{
     margin: 2em;
     font-family: 'Orbitron';
     font-size: 202%;
+}
+
+h5{
+    font-size: 20px;
+    color: white;
 }
 /*fin des titres*/
 
@@ -262,12 +287,55 @@ p{
 }
 /*fin du paragraphe*/
 
+
+/*star of footer*/
 footer{
-    
+    margin-top: 2em;
     width: 100%;
     background-color: #616161;
 }
 
+
+.inverse{
+    display: flex;
+    justify-content: space-around;
+}
+
+.restez{
+    border: 1px #777777 solid;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    padding-top: 3px;
+}
+
+.lorem{
+    border: 1px #777777 solid;
+}
+
+.paie{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.fin{
+    border: 1px #777777 solid;
+    justify-content: center;
+}
+
+a{
+    color: orange;
+}
+
+.finspan, .findeuxspan{
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/*end of footer*/
       
     
 
