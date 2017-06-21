@@ -95,7 +95,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    margin: auto;
+    /*margin: auto;*/
+    padding-left: 100px;
+    padding-right: 100px;
 }   
 
    /*star of the header*/
@@ -125,6 +127,11 @@ h2{
     margin: 1em;
 }
 
+.trafic, .trafic1, .trafic2{
+    padding-left: 39%;
+}
+
+
 h4{
     text-align: center;
     margin: 3em;
@@ -146,6 +153,7 @@ p{
     text-align: center;
 }
 /*fin du paragraphe*/
+
 
 
 /**************************************Tablette**************************************************/
@@ -198,6 +206,8 @@ p{
 
 
 
+
+
 /*******************************Version Desktop**************************************************/
 
 @media (min-width: 1280px){
@@ -226,6 +236,10 @@ h2{
     margin: 1em;
 }
 
+.trafic, .trafic1, .trafic2{
+    padding-left: 39%;
+}
+
 h4{
     text-align: center;
     margin: 2em;
@@ -248,14 +262,15 @@ p{
 }
 /*fin du paragraphe*/
 
-.salle{
+footer{
     
+    width: 100%;
+    background-color: #616161;
 }
 
-.salle1{
-    height: 100%;
-    width: 100%;
-}
+      
+    
+
 
 
 }
