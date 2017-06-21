@@ -247,9 +247,10 @@ h2{
     margin: 1em;
 }
 
-/*.trafic, .trafic1, .trafic2{
+.trafic, .trafic1, .trafic2, .trafic3
+{
     padding-left: 39%;
-}*/
+}
 
 .trafic1{
     display: flex;
@@ -270,6 +271,7 @@ h4{
 h5{
     font-size: 20px;
     color: white;
+    font-weight: bold;
 }
 /*fin des titres*/
 
@@ -286,6 +288,12 @@ p{
     text-align: center;
 }
 /*fin du paragraphe*/
+
+/*Partie contact*/
+figure{
+    height: 3%;
+}
+/*fin de la partie contact*/
 
 
 /*star of footer*/
@@ -328,12 +336,20 @@ a{
     color: orange;
 }
 
-.finspan, .findeuxspan{
+.finspan{
     color: white;
     padding-left: 1em;
     padding-right: 1em;
 }
 
+.findeuxspan{
+    padding-left: 1em;
+    color: white;
+}
+
+.lienfin{
+    color: #777777;
+}
 
 /*end of footer*/
       
