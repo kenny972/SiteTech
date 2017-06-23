@@ -223,6 +223,32 @@ p{
 
 @media (min-width: 1280px){
 
+/*heure et date*/
+#afficherheure{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.date{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 102%; 
+}
+
+.chrono{
+    display: flex;
+    justify-content: flex-start;
+    color:#0094D1 ;
+    padding-left: 32px;
+   
+} 
+
+.onein{
+    width: 29%;
+    text-align: center;
+}
+/*fin de l'heure et la date   */
+
     /*star of h1*/
 .logo{
     height: 92px;
@@ -349,6 +375,18 @@ a{
 
 .lienfin{
     color: #777777;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+button{
+    text-align: center;
+    background-color: #616161;
+    color: white;
 }
 
 /*end of footer*/
