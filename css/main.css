@@ -381,20 +381,18 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 2em;
+    padding-bottom: 1em;
 }
 
 button{
     text-align: center;
     background-color: #616161;
     color: white;
+
 }
 
 /*end of footer*/
       
-    
-
-
-
 }
 
 
